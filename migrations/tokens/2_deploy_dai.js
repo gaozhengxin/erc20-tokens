@@ -5,6 +5,6 @@ module.exports = function (deployer) {
   let name = "DAI";
   let decimal = 18;
   let totalSupply = "10000000000000000000000000000";
-  let owner = "0xb990699Dd7ef140432313c7437B2846eDE88EE9E";
+  let owner = "0xce15aa76a07e109deb359da8a731df0d640066c2";
   deployer.deploy(MyToken, symbol, name, decimal, totalSupply, owner);
 };
